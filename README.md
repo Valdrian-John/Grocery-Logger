@@ -33,6 +33,34 @@ $ cd backend
 ```sh
 npm install
 ```
+
+## 🛠 Setup the MySQL Database Environment using XAMPP
+
+1. Open **phpMyAdmin** in your browser (`localhost/phpmyadmin`).
+2. Create a new database:  
+
+   ```sql
+   CREATE DATABASE grocery_db;
+   ```
+
+3. Select the **grocery_db** database and create the `grocery_items` table:
+
+   ```sql
+   CREATE TABLE grocery_items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    price DECIMAL(10,2) NOT NULL DEFAULT 0.00,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+   Insert Sample Data:
+   
+   INSERT INTO grocery_items (name, price) VALUES
+   ('Pork Meat', 250),
+   ('Fish Meat', 300),
+   ('Milk', 90);
+   ```
+
 ## Summary of API Endpoints
 
 | Method  | Endpoint      | Description                    |
