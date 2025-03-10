@@ -4,8 +4,8 @@ Before setting up the project, ensure you have the following installed on your s
 
 · [Node.js](https://nodejs.org/en) (LTS recommended)
 
-· XAMPP (to run MySQL)
+· [XAMPP](https://www.apachefriends.org) (to run MySQL)
 
-· npm (comes with Node.js)
+· [npm](https://www.npmjs.com) (comes with Node.js)
 
-· Postman (optional, for testing API endpoints)
+· [Postman](https://www.postman.com) (optional, for testing API endpoints)
