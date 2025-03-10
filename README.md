@@ -26,3 +26,8 @@
 
 ```sh
 $ cd backend
+
+**Install dependencies**
+
+``sh
+npm install
