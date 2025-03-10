@@ -26,8 +26,10 @@
 
 ```sh
 $ cd backend
+```
 
 **Install dependencies**
 
-``sh
+```sh
 npm install
+```
