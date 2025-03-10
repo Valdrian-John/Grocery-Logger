@@ -21,3 +21,8 @@
 · `dotenv` - Loads environment variables from a `.env` file
 
 · `nodemon` (optional) - Automatically restarts the server on file changes (install globally with `npm install -g nodemon`)
+
+**Backend Setup**
+
+```sh
+$ cd backend
