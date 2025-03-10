@@ -33,3 +33,11 @@ $ cd backend
 ```sh
 npm install
 ```
+## Summary of API Endpoints
+
+| Method  | Endpoint      | Description                    |
+|---------|-------------|--------------------------------|
+| **GET**     | `/api/items`        | Retrieve all grocery items      |
+| **POST**    | `/api/items`        | Create a new grocery item       |
+| **PUT**     | `/api/items/:id`    | Update a grocery item by ID     |
+| **DELETE**  | `/api/items/:id`    | Delete a grocery item by ID     |
